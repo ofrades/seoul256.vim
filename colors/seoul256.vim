@@ -205,17 +205,17 @@ endif
 
 call s:hi('Normal', [s:dark_fg, s:light_fg], [s:dark_bg, s:light_bg])
 
-call s:hi('LineNr', [101, 101], [s:dark_bg + 1, s:light_bg - 2])
+call s:hi('LineNr', ['#4CA485', '#4CA485'], [s:dark_bg + 1, s:light_bg - 2])
 call s:hi('Visual', ['', ''], [23, 152])
 call s:hi('VisualNOS', ['', ''], [23, 152])
 
-call s:hi('Comment', [65, 65], ['', ''])
-call s:hi('Number', [222, 95], ['', ''])
+call s:hi('Comment', ['#575B64', '#575B64'], ['', ''])
+call s:hi('Number', ['#5E99D2', 95], ['', ''])
 call s:hi('Float', [222, 95], ['', ''])
 call s:hi('Boolean', [103, 168], ['', ''])
-call s:hi('String', [109, 30], ['', ''])
-call s:hi('Constant', [73, 23], ['', ''])
-call s:hi('Character', [174, 168], ['', ''])
+call s:hi('String', ['#5EBFD1', 30], ['', ''])
+call s:hi('Constant', ['#5F73D2', 23], ['', ''])
+call s:hi('Character', ['#5ED2BE', 168], ['', ''])
 call s:hi('Delimiter', [137, 94], ['', ''])
 call s:hi('StringDelimiter', [137, 94], ['', ''])
 call s:hi('Statement', [108, 66], ['', ''])
@@ -223,12 +223,12 @@ call s:hi('Statement', [108, 66], ['', ''])
 " hi Label ctermfg=
 
 " if else end
-call s:hi('Conditional', [110, 31], ['', ''])
+call s:hi('Conditional', ['#AFC87A', 31], ['', ''])
 
 " while end
 call s:hi('Repeat', [68, 67], ['', ''])
 call s:hi('Todo', [161, 125], [s:dark_bg_2, s:light_bg_2])
-call s:hi('Function', [187, 58], ['', ''])
+call s:hi('Function', ['#4CA485', 58], ['', ''])
 
 " Macros
 call s:hi('Define', [173, 131], ['', ''])
@@ -244,13 +244,13 @@ call s:hi('PreProc', [143, 58], ['', ''])
 call s:hi('Identifier', [217, 96], ['', ''])
 
 " AAA Abc
-call s:hi('Type', [179, 94], ['', ''])
+call s:hi('Type', ['#B67669', 94], ['', ''])
 
 " + - * / <<
-call s:hi('Operator', [186, 131], ['', ''])
+call s:hi('Operator', ['#B9B9B4', 131], ['', ''])
 
 " super yield
-call s:hi('Keyword', [168, 168], ['', ''])
+call s:hi('Keyword', ['#CEA27E', 168], ['', ''])
 
 " raise
 call s:hi('Exception', [161, 161], ['', ''])
